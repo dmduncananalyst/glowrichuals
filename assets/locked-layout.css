@@ -193,3 +193,12 @@ html{scroll-padding-top:calc(var(--header-height) + 20px)}
   .site-footer .footer-nav{width:100%;margin:0 0 42px;align-items:center;gap:12px}
   .site-footer .footer-bottom{width:100%;margin:0;padding-top:20px;align-items:center;gap:10px}
 }
+
+/* Mobile header: remove the separator/shadow that can appear after navigating from the menu. */
+@media(max-width:900px){
+  .site-header,
+  .site-header.scrolled{
+    border-bottom:0!important;
+    box-shadow:none!important;
+  }
+}
