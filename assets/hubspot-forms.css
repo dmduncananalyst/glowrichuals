@@ -1,0 +1,41 @@
+/* Keep the supplied HubSpot embed inside the approved page layout.
+   Form fields, validation, and submission are rendered by HubSpot itself.
+   These rules only size the outer container; no hero/video rules are changed. */
+.hubspot-form-wrap {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  text-align: left;
+}
+.hubspot-form-wrap .hs-form-frame {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+}
+.hubspot-form-wrap iframe {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  border: 0;
+}
+.contact-panel > .hubspot-contact {
+  max-width: 660px;
+  margin: 0 auto;
+}
+.home-waitlist > .hubspot-waitlist {
+  max-width: 880px;
+  margin: 0 auto;
+}
+.retreat-waitlist > .hubspot-waitlist {
+  max-width: 820px;
+  margin: 0 auto;
+}
+.hubspot-form-wrap noscript p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+.hubspot-form-wrap noscript a {
+  text-decoration: underline;
+  overflow-wrap: anywhere;
+}

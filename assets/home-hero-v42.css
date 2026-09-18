@@ -1,0 +1,14 @@
+/* Homepage only. The movie itself has a centered, portrait boat crop.
+   Do not recrop the desktop film or the other approved mobile scenes. */
+@media (max-width: 900px) {
+  .home-page .hero.mobile-framed-scene video.hero-video-full {
+    object-position: 50% 50%;
+  }
+}
+/* The existing hero is taller than a landscape phone's visible screen.
+   Lift only the boat crop so its hull stays above that screen's bottom edge. */
+@media (max-width: 900px) and (max-height: 600px) and (orientation: landscape) {
+  .home-page .hero.mobile-boat-scene video.hero-video-full {
+    object-position: 50% 65%;
+  }
+}

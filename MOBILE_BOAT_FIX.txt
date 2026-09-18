@@ -1,0 +1,20 @@
+GLOW RICHUALS - MOBILE HOMEPAGE BOAT FIX
+
+Extract the entire ZIP before opening index.html.
+Use this updated homepage together with the new assets included in this folder.
+
+The mobile hero now uses a centered portrait boat video.
+Switching between desktop and mobile preview automatically switches the video.
+The existing women's scene is included in the mobile video at its original time,
+instead of relying on a second video to cover it.
+The original desktop video, desktop layout, shared styles and all other pages
+are unchanged.
+
+Homepage additions:
+- assets/home-hero-v42.js
+- assets/home-hero-v42.css
+- assets/video/home-hero-mobile-centered-v42.mp4
+- assets/images/home-hero-mobile-boat-v42.jpg
+
+The correction includes both the video and the homepage playback code.
+Replacing only the video in an older homepage will not apply the full fix.
