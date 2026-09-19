@@ -49,7 +49,7 @@
     width: auto !important;
     max-width: calc(100% - 36px) !important;
     transform: none !important;
-    white-space: normal !important;
+    white-space: nowrap !important;
     word-break: normal !important;
     overflow-wrap: normal !important;
     font-size: 1.36rem !important;

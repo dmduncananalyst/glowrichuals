@@ -1,0 +1,6 @@
+
+@media (max-width: 560px) {
+  .question-film .question-scene:nth-child(9) .question-symbol {
+    top: 72px !important;
+  }
+}
