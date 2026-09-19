@@ -1,0 +1,9 @@
+
+.mobile-book-greece-now { display:none !important; }
+@media (max-width:900px) {
+  .mobile-book-greece-now {
+    display:block !important;
+    padding:14px 0 !important;
+    font:400 2rem/1 var(--serif) !important;
+  }
+}

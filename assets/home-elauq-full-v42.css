@@ -1,0 +1,22 @@
+
+/* v42 — homepage Elauq photo only. Show the entire uploaded photo without cropping. */
+.home-page .home-founder-story .founder-story-figure {
+  width: min(760px, 92vw) !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  margin: 0 auto 28px !important;
+  display: block !important;
+}
+
+@media (max-width: 560px) {
+  .home-page .home-founder-story .founder-story-figure {
+    width: calc(100vw - 28px) !important;
+    height: auto !important;
+    max-height: none !important;
+    object-fit: contain !important;
+    object-position: center center !important;
+    margin: 0 auto 22px !important;
+  }
+}

@@ -1,0 +1,124 @@
+
+/* v41 — mobile menu refinement ONLY. Desktop remains unchanged. */
+.mobile-book-greece-now {
+  display: none !important;
+}
+
+@media (max-width: 900px) {
+  /* Booking is an action, not another giant serif navigation item. */
+  .site-nav > .mobile-book-greece-now {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 12px 0 4px !important;
+    padding: 16px 18px !important;
+    background: var(--chocolate) !important;
+    color: var(--cream) !important;
+    border: 1px solid var(--chocolate) !important;
+    font-family: var(--sans) !important;
+    font-size: .76rem !important;
+    font-weight: 500 !important;
+    line-height: 1.2 !important;
+    letter-spacing: .13em !important;
+    text-transform: uppercase !important;
+  }
+
+  /* Prevent the normal desktop nav underline from affecting the CTA. */
+  .site-nav > .mobile-book-greece-now::after {
+    content: none !important;
+    display: none !important;
+  }
+
+  /* Contact submenu becomes a visual FAQ card, matching the Retreat experience. */
+  .nav-group .dropdown.contact-menu {
+    padding: 8px 0 16px !important;
+    background: transparent !important;
+  }
+
+  .nav-group.open .dropdown.contact-menu {
+    display: block !important;
+  }
+
+  .dropdown.contact-menu .faq-menu-card {
+    position: relative !important;
+    display: block !important;
+    height: 155px !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    background:
+      linear-gradient(rgba(35,22,18,.28), rgba(35,22,18,.68)),
+      url('images/questions/q1.webp') center 48% / cover no-repeat !important;
+    color: #fff !important;
+  }
+
+  .dropdown.contact-menu .faq-menu-card::before {
+    content: '?' !important;
+    position: absolute;
+    top: 16px;
+    left: 18px;
+    font-family: var(--serif);
+    font-size: 3.9rem;
+    font-weight: 400;
+    line-height: 1;
+    color: rgba(255,255,255,.94);
+  }
+
+  .dropdown.contact-menu .faq-menu-card::after {
+    content: none !important;
+    display: none !important;
+  }
+
+  .faq-menu-title {
+    position: absolute;
+    left: 18px;
+    bottom: 34px;
+    font-family: var(--serif);
+    font-size: 2rem;
+    line-height: 1;
+  }
+
+  .faq-menu-card small {
+    position: absolute;
+    left: 19px;
+    bottom: 13px;
+    font-family: var(--sans);
+    font-size: .58rem;
+    line-height: 1;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+  }
+}
+
+
+/* v44 — Greece FAQ card only */
+@media (max-width: 900px) {
+  .dropdown.contact-menu .faq-menu-card {
+    background:
+      linear-gradient(rgba(35,22,18,.26), rgba(35,22,18,.66)),
+      url('images/social-greece.jpg') center 58% / cover no-repeat !important;
+  }
+
+  .dropdown.contact-menu .faq-menu-card::before {
+    content: none !important;
+    display: none !important;
+  }
+
+  .faq-menu-title {
+    left: 18px !important;
+    bottom: 56px !important;
+    font-size: 2.15rem !important;
+    line-height: 1 !important;
+  }
+
+  .faq-menu-card small {
+    left: 19px !important;
+    right: 18px !important;
+    bottom: 16px !important;
+    width: auto !important;
+    font-size: .62rem !important;
+    line-height: 1.35 !important;
+    letter-spacing: .09em !important;
+    white-space: normal !important;
+  }
+}
