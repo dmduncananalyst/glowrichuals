@@ -73,3 +73,33 @@
     -webkit-tap-highlight-color: transparent;
   }
 }
+
+
+/* v16 — definitive mobile destination-title positioning.
+   Older desktop rules used translateX(-50%), which pushed titles off-screen on iPhone. */
+@media (max-width: 560px) {
+  .home-page .destination-slice .place,
+  .home-page .destination-slice.greece-feature .place,
+  .home-page .destination-slice:not(:first-child) .place {
+    left: 30px !important;
+    right: 30px !important;
+    width: auto !important;
+    max-width: calc(100% - 60px) !important;
+    transform: none !important;
+    text-align: left !important;
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+    font-size: 2.35rem !important;
+    line-height: .98 !important;
+    margin: 0 !important;
+  }
+
+  .home-page .destination-slice.greece-feature .place {
+    bottom: 137px !important;
+  }
+
+  .home-page .destination-slice:not(:first-child) .place {
+    bottom: 108px !important;
+  }
+}
