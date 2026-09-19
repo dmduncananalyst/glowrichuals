@@ -1,0 +1,59 @@
+
+/* v26 — Retreats page only.
+   Preserve the older country-card design. Do not style NZ/Fiji/Bali cards. */
+
+@media (max-width: 900px) {
+  body.retreats-final-v26 .site-header,
+  body.retreats-final-v26 .site-header.scrolled {
+    border-bottom: 0 !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+  }
+
+  body.retreats-final-v26 .retreats-title-only {
+    margin: 0 !important;
+    padding-bottom: 8px !important;
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+
+  body.retreats-final-v26 .retreats-title-only::before,
+  body.retreats-final-v26 .retreats-title-only::after {
+    content: none !important;
+    display: none !important;
+  }
+
+  body.retreats-final-v26 .retreats-mosaic {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    border-top: 0 !important;
+    box-shadow: none !important;
+  }
+
+  body.retreats-final-v26 .retreats-mosaic::before,
+  body.retreats-final-v26 .retreats-mosaic::after {
+    content: none !important;
+    display: none !important;
+  }
+}
+
+@media (max-width: 560px) {
+  body.retreats-final-v26 .retreats-title-only {
+    padding-bottom: 4px !important;
+  }
+
+  /* Greece only: keep full wording visible. */
+  body.retreats-final-v26 .retreats-greece-feature > span {
+    left: 18px !important;
+    right: 18px !important;
+    width: auto !important;
+    max-width: calc(100% - 36px) !important;
+    transform: none !important;
+    white-space: normal !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    font-size: 1.36rem !important;
+    line-height: 1.02 !important;
+    bottom: 110px !important;
+  }
+}

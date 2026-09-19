@@ -1,0 +1,32 @@
+
+/* v25: preserve OLD country-card design. Do not style destination cards here. */
+
+.home-page .hero .hero-video-desktop { display:block !important; }
+.home-page .hero .hero-video-mobile { display:none !important; }
+
+@media (max-width:900px) {
+  .home-page .hero .hero-video-desktop { display:none !important; }
+  .home-page .hero .hero-video-mobile {
+    display:block !important;
+    position:absolute !important;
+    inset:0 !important;
+    width:100% !important;
+    height:100% !important;
+    max-width:none !important;
+    object-fit:cover !important;
+    object-position:center center !important;
+  }
+
+  /* iPhone tap underline bug only — no layout changes. */
+  .site-nav > a::after,
+  .nav-group > a::after,
+  .site-nav > a:hover::after,
+  .nav-group > a:hover::after,
+  .site-nav > a:focus::after,
+  .nav-group > a:focus::after,
+  .site-nav > a:active::after,
+  .nav-group > a:active::after {
+    content:none !important;
+    display:none !important;
+  }
+}
