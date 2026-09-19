@@ -1,0 +1,36 @@
+
+.book-hero-video {
+  position: relative;
+  overflow: hidden;
+  background: #211815 !important;
+}
+
+.book-hero-video > video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  z-index: 0;
+}
+
+.book-hero-video::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(24,14,11,.72), rgba(24,14,11,.20));
+  z-index: 1;
+  pointer-events: none;
+}
+
+.book-hero-video > div {
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 560px) {
+  .book-hero-video > video {
+    object-position: center center;
+  }
+}
