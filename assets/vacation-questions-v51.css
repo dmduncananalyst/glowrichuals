@@ -1,0 +1,42 @@
+
+.question-photo.scene-birthday{background-image:url("images/questions/birthday-v51.webp")!important;background-position:center 48%!important}
+.question-photo.scene-passport{background-image:url("images/questions/passport-v51.webp")!important;background-position:center 46%!important}
+.question-photo.scene-vacation{background-image:url("images/questions/vacation-v51.webp")!important;background-position:center 50%!important}
+.question-photo.scene-vegas{background-image:url("images/questions/vegas-v51.webp")!important;background-position:center 42%!important}
+.question-photo.scene-honeymoon{background-image:url("images/questions/honeymoon-v51.webp")!important;background-position:center 50%!important}
+.question-photo.scene-international{background-image:url("images/questions/international-v51.webp")!important;background-position:center 45%!important}
+.question-photo.scene-food{background-image:url("images/questions/food-v51.webp")!important;background-position:center 70%!important}
+.question-photo.scene-jamaica{background-image:url("images/questions/jamaica-resort-v51.webp")!important;background-position:center 52%!important}
+
+
+/* v58 icon image support */
+.question-symbol.icon-image{position:absolute;z-index:1;top:22px;right:24px;width:78px;height:78px;object-fit:contain;opacity:.96;filter:drop-shadow(0 3px 8px rgba(0,0,0,.42));}
+@media (max-width: 900px){.question-symbol.icon-image{width:62px;height:62px;top:17px;right:17px}}
+
+
+/* v62 — Yosemite mountain only: keep approved icon, make the wide silhouette larger */
+.question-scene[href="best-campgrounds-in-yosemite.html"] .question-symbol.icon-image{
+  left:50% !important;
+  right:auto !important;
+  top:40px !important;
+  width:190px !important;
+  height:126px !important;
+  object-fit:contain !important;
+  transform:translateX(-50%) !important;
+}
+.question-scene[href="best-campgrounds-in-yosemite.html"]:hover .question-symbol.icon-image{
+  transform:translateX(-50%) scale(1.035) !important;
+}
+@media(max-width:560px){
+  .question-scene[href="best-campgrounds-in-yosemite.html"] .question-symbol.icon-image{
+    top:56px !important;
+    width:138px !important;
+    height:82px !important;
+  }
+}
+
+
+/* v63 old icon reference images, same centered scale as approved icons */
+.question-scene .question-symbol.icon-image{position:absolute!important;left:50%!important;right:auto!important;top:44px!important;width:126px!important;height:126px!important;object-fit:contain!important;transform:translateX(-50%)!important;opacity:1!important;z-index:2!important;filter:drop-shadow(0 4px 12px rgba(0,0,0,.5))!important;}
+.question-scene:hover .question-symbol.icon-image{transform:translateX(-50%) scale(1.035)!important;}
+@media(max-width:560px){.question-scene .question-symbol.icon-image{left:50%!important;right:auto!important;top:64px!important;width:72px!important;height:72px!important;transform:translateX(-50%)!important;}}

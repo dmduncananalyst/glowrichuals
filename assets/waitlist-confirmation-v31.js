@@ -8,9 +8,9 @@
     const text = Array.isArray(value) ? value.join(' ') : String(value || '');
     const found = [];
     [
-      ['New Zealand', /new\s*zealand/i],
-      ['Fiji', /fiji/i],
-      ['Bali', /bali/i]
+      ['Morocco', /morocco/i],
+      ['Mexico City, Mexico', /mexico\s*city|mexico/i],
+      ['South of France', /south\s*of\s*france|france/i]
     ].forEach(([name, pattern]) => {
       if (pattern.test(text) && !found.includes(name)) found.push(name);
     });

@@ -1,0 +1,79 @@
+
+/* v65 final icon loading and alignment */
+.question-scene .question-symbol.icon-image{
+  position:absolute!important;
+  z-index:2!important;
+  left:50%!important;
+  right:auto!important;
+  top:44px!important;
+  width:126px!important;
+  height:126px!important;
+  object-fit:contain!important;
+  transform:translateX(-50%)!important;
+  opacity:1!important;
+  filter:drop-shadow(0 4px 12px rgba(0,0,0,.5))!important;
+}
+.question-scene:hover .question-symbol.icon-image{
+  transform:translateX(-50%) scale(1.035)!important;
+}
+/* Yosemite is a wide silhouette, so give it more horizontal room. */
+.question-scene[href="best-campgrounds-in-yosemite.html"] .question-symbol.icon-image{
+  width:176px!important;
+  height:126px!important;
+}
+@media(max-width:560px){
+  .question-scene .question-symbol.icon-image{
+    left:50%!important;
+    top:64px!important;
+    width:72px!important;
+    height:72px!important;
+    transform:translateX(-50%)!important;
+  }
+  .question-scene[href="best-campgrounds-in-yosemite.html"] .question-symbol.icon-image{
+    width:112px!important;
+    height:72px!important;
+  }
+}
+
+/* v66 width helpers */
+.question-scene[href="best-campgrounds-in-yosemite.html"] .question-symbol.icon-image{width:176px!important;height:126px!important;}
+.question-scene[href="is-reformer-pilates-harder-than-mat-pilates.html"] .question-symbol.icon-image,
+.question-scene[href="stay-active-while-on-vacation.html"] .question-symbol.icon-image,
+.question-scene[href="about-to-be-on-vacation-what-should-i-do.html"] .question-symbol.icon-image{width:138px!important;}
+@media(max-width:560px){
+  .question-scene[href="is-reformer-pilates-harder-than-mat-pilates.html"] .question-symbol.icon-image,
+  .question-scene[href="stay-active-while-on-vacation.html"] .question-symbol.icon-image,
+  .question-scene[href="about-to-be-on-vacation-what-should-i-do.html"] .question-symbol.icon-image{width:84px!important;height:72px!important;}
+}
+
+/* v67 requested reference icon sizing */
+.question-scene[href="best-campgrounds-in-yosemite.html"] .question-symbol.icon-image{
+  width:220px!important;
+  height:138px!important;
+}
+.question-scene[href="is-reformer-pilates-harder-than-mat-pilates.html"] .question-symbol.icon-image{
+  width:160px!important;
+  height:120px!important;
+}
+.question-scene[href="where-should-i-go-with-the-girls.html"] .question-symbol.icon-image,
+.question-scene[href="classpass-vs-gym-membership.html"] .question-symbol.icon-image{
+  width:150px!important;
+  height:118px!important;
+}
+.question-scene[href="about-to-be-on-vacation-what-should-i-do.html"] .question-symbol.icon-image{
+  width:150px!important;
+  height:120px!important;
+}
+@media(max-width:560px){
+  .question-scene[href="best-campgrounds-in-yosemite.html"] .question-symbol.icon-image{
+    width:145px!important;
+    height:80px!important;
+  }
+  .question-scene[href="is-reformer-pilates-harder-than-mat-pilates.html"] .question-symbol.icon-image,
+  .question-scene[href="where-should-i-go-with-the-girls.html"] .question-symbol.icon-image,
+  .question-scene[href="classpass-vs-gym-membership.html"] .question-symbol.icon-image,
+  .question-scene[href="about-to-be-on-vacation-what-should-i-do.html"] .question-symbol.icon-image{
+    width:95px!important;
+    height:76px!important;
+  }
+}

@@ -1,0 +1,60 @@
+
+.article-refresh-v86 .article-head{min-height:540px;padding:155px 24px 82px;display:flex!important;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:linear-gradient(145deg,#3a241d,#160e0b)!important;color:#f5efe5}
+.article-refresh-v86 .article-head:before{display:none!important}
+.article-refresh-v86 .article-head h1{font-size:clamp(2.7rem,4.7vw,4.7rem)!important;max-width:950px;margin:0 auto 1.35rem!important}
+.article-refresh-v86 .article-head .direct-answer{font-size:1.08rem!important;line-height:1.85;max-width:780px;margin:0 auto!important}
+.article-refresh-v86 .article-body{display:block!important;max-width:1000px!important;margin:0 auto!important;padding:78px 24px 120px!important}
+.article-refresh-v86 .article-body aside{display:none!important}
+.article-refresh-v86 .article-feature,.article-refresh-v86 .article-inline-image{margin:0 auto 64px;max-width:980px}
+.article-refresh-v86 .article-feature img,.article-refresh-v86 .article-inline-image img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;box-shadow:0 20px 44px rgba(31,20,17,.10)}
+.article-refresh-v86 .article-feature figcaption,.article-refresh-v86 .article-inline-image figcaption{margin-top:13px;font-size:.72rem;line-height:1.6;letter-spacing:.08em;text-transform:uppercase;color:rgba(58,36,29,.64)}
+.article-refresh-v86 .article-copy{max-width:800px;margin:0 auto}
+.article-refresh-v86 .article-copy section{margin:0 0 64px!important;padding:0!important}
+.article-refresh-v86 .article-copy h2{font-size:clamp(2rem,3.3vw,3.1rem)!important;line-height:1.08;margin:0 0 18px!important}
+.article-refresh-v86 .article-copy p{font-size:1.075rem;line-height:1.95;margin:0 0 1.2rem;color:#241a17}
+.article-refresh-v86 .article-inline-image{max-width:800px;margin-top:6px;margin-bottom:70px}
+.article-refresh-v86 .health-note{border-top:1px solid rgba(58,36,29,.20);padding-top:26px;margin-top:8px;font-size:.95rem!important;color:rgba(33,24,21,.76)!important}
+.article-refresh-v86 .article-sources{border-top:1px solid rgba(58,36,29,.20);padding-top:26px;margin-top:18px}
+.article-refresh-v86 .article-sources h2{font:400 1.35rem/1.2 var(--serif)!important;margin-bottom:12px!important}
+.article-refresh-v86 .article-sources a{display:block;text-decoration:underline;text-underline-offset:4px;margin:9px 0;font-size:.95rem}
+@media(max-width:700px){.article-refresh-v86 .article-head{min-height:500px;padding:118px 22px 62px}.article-refresh-v86 .article-head h1{font-size:2.65rem!important}.article-refresh-v86 .article-head .direct-answer{font-size:1rem!important}.article-refresh-v86 .article-body{padding:56px 20px 94px!important}.article-refresh-v86 .article-feature,.article-refresh-v86 .article-inline-image{margin-bottom:46px}.article-refresh-v86 .article-copy section{margin-bottom:50px!important}.article-refresh-v86 .article-copy p{font-size:1rem;line-height:1.9}.article-refresh-v86 .article-copy h2{font-size:2rem!important}}
+
+
+/* v97 article photos only: natural framing, no boxes, no cropping */
+.article-refresh-v86 .article-feature,
+.article-refresh-v86 .article-inline-image{
+  width:100%;
+  max-width:780px!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+  background:transparent!important;
+  border:0!important;
+  box-shadow:none!important;
+}
+.article-refresh-v86 .article-feature img,
+.article-refresh-v86 .article-inline-image img{
+  display:block!important;
+  width:auto!important;
+  max-width:100%!important;
+  height:auto!important;
+  max-height:480px!important;
+  aspect-ratio:auto!important;
+  object-fit:contain!important;
+  object-position:center center!important;
+  margin:0 auto!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  background:transparent!important;
+  box-shadow:none!important;
+}
+@media(max-width:700px){
+  .article-refresh-v86 .article-feature,
+  .article-refresh-v86 .article-inline-image{max-width:100%!important;}
+  .article-refresh-v86 .article-feature img,
+  .article-refresh-v86 .article-inline-image img{
+    width:100%!important;
+    max-height:none!important;
+    height:auto!important;
+  }
+}

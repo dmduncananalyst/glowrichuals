@@ -1,0 +1,1 @@
+Updated only the requested question icons to better match the provided references: Yosemite mountain, camping tent, birthday cake, Vegas cocktail, food plate/fork/knife, and Jamaica palm tree. Other icons were left unchanged.

@@ -1,0 +1,1 @@
+v66 updates all remaining Pilates Overseas question icons to the new white silhouette style and points pilates-overseas.html to the new v66 icon assets.

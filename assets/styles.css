@@ -505,8 +505,8 @@ body>.site-header .site-nav{visibility:visible;opacity:1}
 .home-page .destination-ribbon{height:560px;display:grid;grid-template-columns:repeat(4,1fr);padding:0;background:var(--chocolate);color:#fff;border:0}
 .home-page .destination-slice{position:relative;height:560px;padding:0;display:block;overflow:hidden;color:#fff;border-right:1px solid rgba(255,255,255,.25);background:var(--chocolate)}
 .home-page .destination-slice:last-child{border-right:0}.home-page .destination-slice:after{display:block;content:'';position:absolute;inset:0;background:linear-gradient(0deg,rgba(20,12,9,.82),transparent 58%);pointer-events:none}
-.home-page .destination-slice img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.75) brightness(.7);transition:.7s}
-.home-page .destination-slice:hover img{transform:scale(1.05);filter:saturate(.9) brightness(.8)}
+.home-page .destination-slice img,.home-page .destination-slice video{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.75) brightness(.7);transition:.7s}
+.home-page .destination-slice:hover img,.home-page .destination-slice:hover video{transform:scale(1.05);filter:saturate(.9) brightness(.8)}
 .home-page .destination-slice .count{position:absolute;top:30px;left:30px;z-index:2;color:#fff}
 .home-page .destination-slice .place{position:absolute;left:28px;bottom:82px;z-index:2;color:#fff;font:400 clamp(2rem,4vw,4.4rem)/1 var(--serif);max-width:none}
 .home-page .destination-action{position:absolute;left:30px;bottom:28px;z-index:2;color:#fff;border:1px solid rgba(255,255,255,.75);padding:9px 12px;font-size:.7rem}
@@ -866,3 +866,47 @@ body>.site-header .site-nav{visibility:visible;opacity:1}
 @media(max-width:900px){.site-header,.site-header.scrolled{border-bottom:0!important;box-shadow:none!important}}
 
 @media(max-width:900px){.site-header,.site-header.scrolled{border-bottom:0!important;box-shadow:none!important}.site-nav{border-top:0!important}}
+
+
+/* v50 mobile history back button */
+.mobile-history-back{display:none}
+@media (max-width:900px){
+  .mobile-history-back{
+    display:inline-flex;
+    align-items:center;
+    gap:7px;
+    margin:12px 16px 0;
+    padding:7px 0;
+    border:0;
+    background:transparent;
+    color:#3a241d;
+    font-family:var(--sans);
+    font-size:.72rem;
+    line-height:1;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    cursor:pointer;
+    position:relative;
+    z-index:5;
+  }
+  .mobile-history-back span{font-size:1.15rem;line-height:1;font-weight:400}
+  .mobile-history-back b{font-weight:500}
+}
+
+
+/* Article refresh v86 */
+.article-refresh .article-head{min-height:520px;padding:155px 24px 78px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:linear-gradient(145deg,#3a241d,#160e0b)}
+.article-refresh .article-head:before{display:none}
+.article-refresh .article-head h1{font-size:clamp(2.7rem,4.6vw,4.6rem);max-width:920px;margin:0 auto 1.2rem}
+.article-refresh .article-head .direct-answer{font-size:1.08rem;max-width:760px;margin:0 auto;line-height:1.8}
+.article-refresh .article-body{display:block;max-width:980px;margin:0 auto;padding:72px 24px 110px}
+.article-refresh .article-feature{margin:0 auto 54px;max-width:980px}
+.article-refresh .article-feature img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:0;box-shadow:0 24px 45px rgba(31,20,17,.08)}
+.article-refresh .article-feature figcaption{margin-top:14px;font-size:.82rem;letter-spacing:.04em;text-transform:uppercase;color:rgba(58,36,29,.68)}
+.article-refresh .article-copy{max-width:800px;margin:0 auto}
+.article-refresh .article-copy section{margin-bottom:68px}
+.article-refresh .article-copy h2{font-size:clamp(2rem,3vw,3rem);margin:0 0 18px;line-height:1.08}
+.article-refresh .article-copy p{font-size:1.07rem;line-height:1.95;margin:0 0 1.15rem;color:#241a17}
+.article-refresh .health-note{border-top:1px solid rgba(58,36,29,.18);padding-top:26px;margin-top:10px;font-size:.98rem;color:rgba(33,24,21,.78)}
+@media(max-width:900px){.article-refresh .article-body{padding:56px 22px 92px}.article-refresh .article-copy section{margin-bottom:52px}}
+@media(max-width:560px){.article-refresh .article-head{min-height:480px;padding:120px 22px 58px}.article-refresh .article-head h1{font-size:2.65rem}.article-refresh .article-head .direct-answer{font-size:1rem}.article-refresh .article-feature{margin-bottom:38px}.article-refresh .article-copy p{font-size:1rem;line-height:1.9}.article-refresh .article-copy h2{font-size:2rem}}
