@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" aria-hidden="true">
+<circle cx="70" cy="70" r="56" fill="none" stroke="#fff" stroke-width="4"/>
+<g fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" text-anchor="middle" dominant-baseline="middle">
+<text x="70" y="27">12</text><text x="91.5" y="32.8">1</text><text x="107.2" y="48.5">2</text><text x="113" y="70">3</text>
+<text x="107.2" y="91.5">4</text><text x="91.5" y="107.2">5</text><text x="70" y="113">6</text><text x="48.5" y="107.2">7</text>
+<text x="32.8" y="91.5">8</text><text x="27" y="70">9</text><text x="32.8" y="48.5">10</text><text x="48.5" y="32.8">11</text>
+</g>
+<circle cx="70" cy="70" r="4.5" fill="#fff"/>
+<path d="M70 70L55 39M70 70L94 99M70 70L56 94" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+</svg>
