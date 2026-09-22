@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+    <!-- ring -->
+    <circle cx="80" cy="24" r="13" stroke-width="7"/>
+    <circle cx="80" cy="24" r="5" stroke-width="4"/>
+    <!-- shank -->
+    <path d="M80 37 L80 118" stroke-width="9"/>
+    <!-- stock -->
+    <path d="M50 57 H110" stroke-width="9"/>
+    <path d="M50 50 V64 M110 50 V64" stroke-width="5"/>
+    <!-- crown and arms -->
+    <path d="M80 118
+             C69 118 59 114 50 107
+             C41 100 35 91 32 80" stroke-width="8"/>
+    <path d="M80 118
+             C91 118 101 114 110 107
+             C119 100 125 91 128 80" stroke-width="8"/>
+    <!-- flukes -->
+    <path d="M32 80 L20 91 L37 94 Z" fill="#fff" stroke-width="4"/>
+    <path d="M128 80 L140 91 L123 94 Z" fill="#fff" stroke-width="4"/>
+    <!-- pointed crown -->
+    <path d="M69 118 L80 136 L91 118" fill="#fff" stroke-width="4"/>
+  </g>
+</svg>
