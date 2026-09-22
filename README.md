@@ -1,3 +1,8 @@
-Glow Richuals v97
+# v159 RECOVERED
 
-Article-photo update only. Built from approved v92 so the Pilates Overseas question cards and icons are unchanged. All 26 articles use exactly two different local photos, 52 unique photo files total. Article images show their full frame with no surrounding box or forced crop.
+Built directly from v155, the last known-good Pilates Overseas page.
+
+- All original generated card photos restored.
+- All icon spacing/CSS preserved byte-for-byte from v155.
+- Only the single Las Vegas card image payload was changed to a Strip-only crop.
+- Every other question card is byte-for-byte identical to v155.
